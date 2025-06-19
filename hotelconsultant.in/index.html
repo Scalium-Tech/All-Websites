@@ -1,0 +1,1322 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta name="description" content="Revolutionize your hotel operations with AI-driven insights. Hotel Consultant AI provides intelligent solutions for guest experience optimization, operational efficiency, and profitability enhancement across India's hospitality sector.">
+      <meta name="theme-color" content="#ffffff">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="robots" content="">
+
+      <!-- Alpine.js - Load first -->
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
+      
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+      <title>Hotel Consultant AI - Transform Your Hotel Operations with AI | India's Leading Hospitality AI Consulting</title>
+      <!-- SEO Description -->
+      <meta name="description" content="Revolutionize your hotel operations with AI-driven insights. Hotel Consultant AI provides intelligent solutions for guest experience optimization, operational efficiency, and profitability enhancement across India&#x27;s hospitality sector.">
+
+      <!-- Performance optimization: Preload critical resources -->
+      <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+      
+      <!-- Core CSS and Scripts -->
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      
+      <!-- Project-specific styles -->
+      <style>
+        /* Base styles */
+        :root {
+          --primary-color: #40E0D0;
+          --secondary-color: #333333;
+          --accent-color: ;
+        }
+
+        /* Strict no-scrollbar rules */
+        * {
+          -ms-overflow-style: none !important;  /* IE and Edge */
+          scrollbar-width: none !important;     /* Firefox */
+        }
+        *::-webkit-scrollbar {
+          display: none !important;             /* Chrome, Safari and Opera */
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+          font-family: Roboto, Inter, system-ui, sans-serif;
+        }
+        body {
+          font-family: Lato, Inter, system-ui, sans-serif;
+        }
+
+        /* Interactive elements */
+        .interactive-element {
+          transition: all 0.3s ease;
+        }
+        .interactive-element:hover {
+          transform: translateY(-2px);
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+          width: 8px;
+          height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #888;
+          border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+          background: #555;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        .fade-in {
+          animation: fadeIn 0.5s ease-in-out;
+        }
+      </style>
+
+      <!-- Dynamic Meta Tags -->
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="robots" content="">
+      <meta property="og:title" content="">
+      <meta property="og:description" content="">
+      <meta property="og:image" content="">
+      <meta property="og:type" content="website">
+      <meta property="og:locale" content="en_US">
+      <meta property="og:site_name" content="Hotel Consultant AI">
+      
+      <!-- Favicon -->
+      <link rel="icon" type="image/x-icon" href="">
+
+      <!-- Header Scripts -->
+      <script id="header-scripts">
+        // This script tag will be replaced with actual scripts.head content
+        if (window.scripts && window.scripts.head) {
+          document.getElementById('header-scripts').outerHTML = window.scripts.head;
+        }
+      </script>
+
+      <!-- Project Configuration -->
+      <script>
+        window.projectConfig = {
+          name: 'Hotel Consultant AI',
+          type: '',
+          settings: {
+            colors: {
+              primary: '#40E0D0',
+              secondary: '#333333',
+              accent: ''
+            },
+            fonts: {
+              primary: 'Roboto',
+              secondary: 'Lato'
+            }
+          }
+        };
+      </script>
+   </head>
+   <body class="antialiased text-gray-800 min-h-screen flex flex-col">
+      <!-- Skip to main content link for accessibility -->
+      <a href="#main-content" 
+         class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+         Skip to main content
+      </a>
+
+      <!-- Main content area -->
+      <main id="main-content" class="flex-1 relative h-full">
+        <mountpoint>
+          <div id="RolloutPageContent"><element id="c84a5721-106d-4504-b6c7-c0ee3a66c3e9" data-section-id="c84a5721-106d-4504-b6c7-c0ee3a66c3e9">
+
+<div id="root">
+  <header id="header" class="bg-white shadow-sm fixed w-full top-0 z-50">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <span class="font-Roboto text-2xl font-bold text-primary">Hotel Consultant AI</span>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex space-x-8">
+            <a href="#hero" class="font-Roboto text-text hover:text-primary transition-colors duration-300 font-medium">Home</a>
+            <a href="#about" class="font-Roboto text-text hover:text-primary transition-colors duration-300 font-medium">About</a>
+            <a href="#services" class="font-Roboto text-text hover:text-primary transition-colors duration-300 font-medium">Services</a>
+            <a href="#contact" class="font-Roboto text-text hover:text-primary transition-colors duration-300 font-medium">Contact</a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="hidden lg:flex items-center space-x-4">
+          <a href="tel:+918369848475" class="font-Roboto text-sm text-text hover:text-primary transition-colors duration-300">
+            +91 8369848475
+          </a>
+          <a href="mailto:info@hotelconsultant.in" class="font-Roboto text-sm text-text hover:text-primary transition-colors duration-300">
+            info@hotelconsultant.in
+          </a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="md:hidden">
+          <button id="mobile-menu-button" type="button" class="text-text hover:text-primary focus:outline-none focus:text-primary transition-colors duration-300" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Menu -->
+      <div id="mobile-menu" class="md:hidden hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200">
+            <a href="#hero" class="font-Roboto block px-3 py-2 text-text hover:text-primary transition-colors duration-300">Home</a>
+            <a href="#about" class="font-Roboto block px-3 py-2 text-text hover:text-primary transition-colors duration-300">About</a>
+            <a href="#services" class="font-Roboto block px-3 py-2 text-text hover:text-primary transition-colors duration-300">Services</a>
+            <a href="#contact" class="font-Roboto block px-3 py-2 text-text hover:text-primary transition-colors duration-300">Contact</a>
+          <div class="border-t border-gray-200 pt-3 mt-3">
+            <a href="tel:+918369848475" class="font-Roboto block px-3 py-2 text-sm text-text hover:text-primary transition-colors duration-300">
+              Call: +91 8369848475
+            </a>
+            <a href="mailto:info@hotelconsultant.in" class="font-Roboto block px-3 py-2 text-sm text-text hover:text-primary transition-colors duration-300">
+              Email: info@hotelconsultant.in
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      // Mobile menu toggle functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', function() {
+          const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+          
+          mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+          mobileMenu.classList.toggle('hidden');
+          
+          // Update button icon
+          const svg = mobileMenuButton.querySelector('svg');
+          if (isExpanded) {
+            svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />';
+          } else {
+            svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />';
+          }
+        });
+
+        // Close mobile menu when clicking on links
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+          link.addEventListener('click', function() {
+            mobileMenu.classList.add('hidden');
+            mobileMenuButton.setAttribute('aria-expanded', 'false');
+            const svg = mobileMenuButton.querySelector('svg');
+            svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />';
+          });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+              const headerHeight = document.querySelector('header').offsetHeight;
+              const targetPosition = target.offsetTop - headerHeight;
+              
+              window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+              });
+            }
+          });
+        });
+      });
+    </script>
+  </header>
+</div>
+</element><element id="7dd81b08-fb17-4fab-8344-0f3c0787e896" data-section-id="7dd81b08-fb17-4fab-8344-0f3c0787e896">
+
+<div id="root">
+  <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+    <!-- Background Image -->
+    <div class="absolute inset-0 z-0">
+      <img 
+        src="https://images.unsplash.com/photo-1588532242026-01df5951f6f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8aG90ZWwlMjUyMGxvYmJ5JTI1MjB0ZWNobm9sb2d5JTI1MjBtb2Rlcm4lMjUyMHByb2Zlc3Npb25hbCUyNTIwYnJpZ2h0fGVufDF8MHx8fDE3NTAzMDYxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        alt="Modern hotel lobby with technology integration"
+        class="w-full h-full object-cover"
+        loading="eager"
+      />
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="max-w-4xl mx-auto">
+        <!-- Main Headline -->
+        <h1 class="font-Roboto text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+          Transform Your Hotel Operations with AI
+        </h1>
+        
+        <!-- Subheadline -->
+        <p class="font-Roboto text-xl sm:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
+          Leverage data-driven insights to elevate guest experiences and optimize efficiency.
+        </p>
+
+        <!-- Key Benefits -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 max-w-4xl mx-auto">
+          <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-20">
+            <h3 class="font-Roboto text-lg font-semibold text-white mb-2">AI-Powered Insights</h3>
+            <p class="font-Roboto text-gray-200 text-sm">Advanced analytics for smarter decisions</p>
+          </div>
+          <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-20">
+            <h3 class="font-Roboto text-lg font-semibold text-white mb-2">Guest Experience</h3>
+            <p class="font-Roboto text-gray-200 text-sm">Personalized services that delight</p>
+          </div>
+          <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 border border-white border-opacity-20">
+            <h3 class="font-Roboto text-lg font-semibold text-white mb-2">Operational Excellence</h3>
+            <p class="font-Roboto text-gray-200 text-sm">Streamlined processes, reduced costs</p>
+          </div>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a 
+            href="#contact" 
+            class="font-Roboto inline-flex items-center px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:bg-opacity-90 transform hover:scale-105 transition-all duration-300 shadow-lg"
+          >
+            Get Started Today
+            <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+          <a 
+            href="#about" 
+            class="font-Roboto inline-flex items-center px-8 py-4 bg-transparent text-white font-semibold rounded-lg border-2 border-white hover:bg-white hover:text-text transition-all duration-300"
+          >
+            Learn More
+          </a>
+        </div>
+
+        <!-- Trust Indicators -->
+        <div class="mt-12 pt-8 border-t border-white border-opacity-20">
+          <p class="font-Roboto text-gray-300 text-sm mb-4">Trusted by leading hotels across India</p>
+          <div class="flex flex-wrap justify-center items-center gap-8 text-white text-opacity-60">
+            <span class="font-Roboto text-sm">Mumbai • Delhi • Bangalore • Chennai</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+      <div class="animate-bounce">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Parallax effect for hero background
+    window.addEventListener('scroll', function() {
+      const scrolled = window.pageYOffset;
+      const parallax = document.querySelector('#hero img');
+      const speed = scrolled * 0.5;
+      
+      if (parallax) {
+        parallax.style.transform = `translateY(${speed}px)`;
+      }
+    });
+
+    // Smooth scroll for CTA buttons
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          const headerHeight = document.querySelector('header').offsetHeight;
+          const targetPosition = target.offsetTop - headerHeight;
+          
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Add entrance animations
+    document.addEventListener('DOMContentLoaded', function() {
+      const heroContent = document.querySelector('#hero .relative.z-10');
+      heroContent.style.opacity = '0';
+      heroContent.style.transform = 'translateY(30px)';
+      
+      setTimeout(() => {
+        heroContent.style.transition = 'all 1s cubic-bezier(0.16, 1, 0.3, 1)';
+        heroContent.style.opacity = '1';
+        heroContent.style.transform = 'translateY(0)';
+      }, 300);
+    });
+  </script>
+</div>
+</element><element id="13780335-ad85-4af7-b345-cd594b635bdf" data-section-id="13780335-ad85-4af7-b345-cd594b635bdf">
+
+<div id="root">
+  <section id="about" class="py-20 bg-background">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <h2 class="font-Roboto text-4xl font-bold text-text mb-4">About</h2>
+        <p class="font-Roboto text-xl text-gray-600 max-w-3xl mx-auto">
+          Empowering Hospitality with Intelligent Insights
+        </p>
+      </div>
+
+      <!-- Main Content Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+        <!-- Content Column -->
+        <div class="space-y-8">
+          <div>
+            <h3 class="font-Roboto text-2xl font-bold text-text mb-4">
+              Revolutionizing Indian Hospitality
+            </h3>
+            <p class="font-Roboto text-gray-600 leading-relaxed mb-4">
+              At Hotel Consultant AI, we understand the nuances of the hospitality industry in India. Our team combines industry knowledge with cutting-edge AI technology.
+            </p>
+            <p class="font-Roboto text-gray-600 leading-relaxed">
+              We provide tailored consulting services that help hotels navigate operational challenges, enhance guest satisfaction, and achieve sustainable growth.
+            </p>
+          </div>
+
+          <!-- Key Stats -->
+          <div class="grid grid-cols-2 gap-6">
+            <div class="text-center p-6 bg-white rounded-lg border border-gray-200">
+              <div class="font-Roboto text-3xl font-bold text-primary mb-2">500+</div>
+              <div class="font-Roboto text-sm text-gray-600">Hotels Transformed</div>
+            </div>
+            <div class="text-center p-6 bg-white rounded-lg border border-gray-200">
+              <div class="font-Roboto text-3xl font-bold text-primary mb-2">95%</div>
+              <div class="font-Roboto text-sm text-gray-600">Client Satisfaction</div>
+            </div>
+          </div>
+
+          <!-- CTA Button -->
+          <div>
+            <a href="#services" class="font-Roboto inline-flex items-center px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all duration-300">
+              Explore Our Services
+              <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Image Column -->
+        <div class="relative">
+          <div class="relative overflow-hidden rounded-lg">
+            <img 
+              src="https://images.unsplash.com/photo-1588532242026-01df5951f6f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8aG90ZWwlMjUyMGxvYmJ5JTI1MjBtb2Rlcm4lMjUyMGNvbnRlbXBvcmFyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBicmlnaHR8ZW58MXwwfHx8MTc1MDMwNjE0N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+              alt="Modern hotel lobby showcasing contemporary professional design"
+              class="w-full h-96 object-cover transform hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Mission & Vision -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Image Column -->
+        <div class="order-2 lg:order-1">
+          <div class="relative overflow-hidden rounded-lg">
+            <img 
+              src="https://images.unsplash.com/photo-1695806109708-f5d5a2da99bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8aG90ZWwlMjUyMGxvYmJ5JTI1MjBtb2Rlcm4lMjUyMGNvbnRlbXBvcmFyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBicmlnaHR8ZW58MXwwfHx8MTc1MDMwNjE0N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+              alt="Hotel sign representing professional hospitality branding"
+              class="w-full h-96 object-cover transform hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <!-- Content Column -->
+        <div class="order-1 lg:order-2 space-y-8">
+          <div>
+            <h3 class="font-Roboto text-2xl font-bold text-text mb-4">
+              Our Mission
+            </h3>
+            <p class="font-Roboto text-gray-600 leading-relaxed">
+              We deliver actionable insights that empower hotel owners and managers to make informed decisions, paving the way for innovation and improved profitability.
+            </p>
+          </div>
+
+          <!-- Core Values -->
+          <div class="space-y-4">
+            <div class="flex items-start space-x-3">
+              <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+              <div>
+                <h4 class="font-Roboto font-semibold text-text">Data-Driven Excellence</h4>
+                <p class="font-Roboto text-sm text-gray-600">Leveraging AI for smarter hospitality decisions</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-3">
+              <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+              <div>
+                <h4 class="font-Roboto font-semibold text-text">Guest-Centric Innovation</h4>
+                <p class="font-Roboto text-sm text-gray-600">Enhancing experiences through technology</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-3">
+              <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+              <div>
+                <h4 class="font-Roboto font-semibold text-text">Sustainable Growth</h4>
+                <p class="font-Roboto text-sm text-gray-600">Building profitable, future-ready hotels</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Intersection Observer for animations
+    document.addEventListener('DOMContentLoaded', function() {
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, observerOptions);
+
+      // Animate elements on scroll
+      const animateElements = document.querySelectorAll('#about .space-y-8, #about .grid');
+      animateElements.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'all 0.8s cubic-bezier(0.16, 1, 0.3, 1)';
+        observer.observe(el);
+      });
+
+      // Counter animation for stats
+      const counters = document.querySelectorAll('#about .text-3xl');
+      counters.forEach(counter => {
+        const target = parseInt(counter.textContent);
+        let current = 0;
+        const increment = target / 50;
+        const timer = setInterval(() => {
+          current += increment;
+          if (current >= target) {
+            counter.textContent = target + (counter.textContent.includes('%') ? '%' : '+');
+            clearInterval(timer);
+          } else {
+            counter.textContent = Math.floor(current) + (counter.textContent.includes('%') ? '%' : '+');
+          }
+        }, 40);
+      });
+    });
+  </script>
+</div>
+</element><element id="2cf9ac6b-0053-44a4-ab30-6dfb8ad46763" data-section-id="2cf9ac6b-0053-44a4-ab30-6dfb8ad46763">
+
+<div id="root">
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <h2 class="font-Roboto text-4xl font-bold text-text mb-4">Services</h2>
+        <p class="font-Roboto text-xl text-gray-600 max-w-3xl mx-auto">
+          AI-powered solutions tailored for the hospitality industry
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+        <!-- Service 1: AI-Driven Guest Insights -->
+        <div class="bg-background rounded-lg p-8 border border-gray-200 hover:shadow-lg transition-all duration-300">
+          <div class="mb-6">
+            <img 
+              src="https://images.unsplash.com/photo-1588532242026-01df5951f6f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8aG90ZWwlMjUyMGxvYmJ5JTI1MjB0ZWNobm9sb2d5JTI1MjBtb2Rlcm4lMjUyMHByb2Zlc3Npb25hbCUyNTIwYnJpZ2h0fGVufDF8MHx8fDE3NTAzMDYyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              alt="Modern hotel lobby with technology integration"
+              class="w-full h-48 object-cover rounded-lg"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="font-Roboto text-2xl font-bold text-text mb-4">AI-Driven Guest Insights</h3>
+          <p class="font-Roboto text-gray-600 mb-6 leading-relaxed">
+            Utilize AI to analyze guest preferences and behavior, enabling personalized marketing and services that enhance guest satisfaction. Our analytics help identify trends and opportunities for up-selling and cross-selling.
+          </p>
+          <ul class="font-Roboto text-sm text-gray-600 space-y-2 mb-6">
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Guest behavior analysis
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Personalized recommendations
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Revenue optimization
+            </li>
+          </ul>
+          <button class="font-Roboto text-primary font-semibold hover:text-accent transition-colors duration-300">
+            Learn More →
+          </button>
+        </div>
+
+        <!-- Service 2: Operational Efficiency Consulting -->
+        <div class="bg-background rounded-lg p-8 border border-gray-200 hover:shadow-lg transition-all duration-300">
+          <div class="mb-6">
+            <img 
+              src="https://images.unsplash.com/photo-1695806109708-f5d5a2da99bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8aG90ZWwlMjUyMGxvYmJ5JTI1MjB0ZWNobm9sb2d5JTI1MjBtb2Rlcm4lMjUyMHByb2Zlc3Npb25hbCUyNTIwYnJpZ2h0fGVufDF8MHx8fDE3NTAzMDYyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              alt="Professional hotel signage representing operational excellence"
+              class="w-full h-48 object-cover rounded-lg"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="font-Roboto text-2xl font-bold text-text mb-4">Operational Efficiency Consulting</h3>
+          <p class="font-Roboto text-gray-600 mb-6 leading-relaxed">
+            Optimize resource allocation and operational workflows through AI-powered tools. We assist hotels in streamlining their processes, reducing wastage, and lowering operational costs without compromising service quality.
+          </p>
+          <ul class="font-Roboto text-sm text-gray-600 space-y-2 mb-6">
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Process optimization
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Cost reduction strategies
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Resource management
+            </li>
+          </ul>
+          <button class="font-Roboto text-primary font-semibold hover:text-accent transition-colors duration-300">
+            Learn More →
+          </button>
+        </div>
+
+        <!-- Service 3: Market Analysis & Trend Forecasting -->
+        <div class="bg-background rounded-lg p-8 border border-gray-200 hover:shadow-lg transition-all duration-300">
+          <div class="mb-6">
+            <img 
+              src="https://images.unsplash.com/photo-1530987580948-e3dec2dfa87b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8aG90ZWwlMjUyMGxvYmJ5JTI1MjB0ZWNobm9sb2d5JTI1MjBtb2Rlcm4lMjUyMHByb2Zlc3Npb25hbCUyNTIwYnJpZ2h0fGVufDF8MHx8fDE3NTAzMDYyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              alt="Modern architectural design representing market analysis and strategic planning"
+              class="w-full h-48 object-cover rounded-lg"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="font-Roboto text-2xl font-bold text-text mb-4">Market Analysis & Trend Forecasting</h3>
+          <p class="font-Roboto text-gray-600 mb-6 leading-relaxed">
+            Stay ahead of the competition with our market analysis services powered by AI algorithms. We provide insights into upcoming trends in the hospitality sector, helping you make informed strategic decisions.
+          </p>
+          <ul class="font-Roboto text-sm text-gray-600 space-y-2 mb-6">
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Market trend analysis
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Competitive intelligence
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Strategic planning
+            </li>
+          </ul>
+          <button class="font-Roboto text-primary font-semibold hover:text-accent transition-colors duration-300">
+            Learn More →
+          </button>
+        </div>
+
+        <!-- Service 4: Training & Support -->
+        <div class="bg-background rounded-lg p-8 border border-gray-200 hover:shadow-lg transition-all duration-300">
+          <div class="mb-6">
+            <img 
+              src="https://images.unsplash.com/photo-1696198265300-971e94451b18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NHx8aG90ZWwlMjUyMGxvYmJ5JTI1MjB0ZWNobm9sb2d5JTI1MjBtb2Rlcm4lMjUyMHByb2Zlc3Npb25hbCUyNTIwYnJpZ2h0fGVufDF8MHx8fDE3NTAzMDYyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              alt="Aerial view of modern facility representing comprehensive training and support services"
+              class="w-full h-48 object-cover rounded-lg"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="font-Roboto text-2xl font-bold text-text mb-4">Training & Support</h3>
+          <p class="font-Roboto text-gray-600 mb-6 leading-relaxed">
+            We provide comprehensive training and continuous support, ensuring your staff is equipped to utilize AI tools effectively, fostering a culture of innovation within your organization.
+          </p>
+          <ul class="font-Roboto text-sm text-gray-600 space-y-2 mb-6">
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Staff training programs
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              24/7 technical support
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
+              Ongoing consultation
+            </li>
+          </ul>
+          <button class="font-Roboto text-primary font-semibold hover:text-accent transition-colors duration-300">
+            Learn More →
+          </button>
+        </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="text-center bg-primary bg-opacity-10 rounded-lg p-12">
+        <h3 class="font-Roboto text-3xl font-bold text-text mb-4">
+          Ready to Transform Your Hotel?
+        </h3>
+        <p class="font-Roboto text-gray-600 mb-8 max-w-2xl mx-auto">
+          Let our AI experts help you optimize operations, enhance guest experiences, and boost profitability.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="#contact" class="font-Roboto inline-flex items-center px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all duration-300">
+            Get Free Consultation
+            <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+          <a href="tel:+918369848475" class="font-Roboto inline-flex items-center px-8 py-4 bg-transparent text-primary font-semibold rounded-lg border-2 border-primary hover:bg-primary hover:text-white transition-all duration-300">
+            Call Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Service card hover animations
+    document.addEventListener('DOMContentLoaded', function() {
+      const serviceCards = document.querySelectorAll('#services .bg-background');
+      
+      serviceCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+          this.style.transform = 'translateY(-5px)';
+          this.style.transition = 'all 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+          this.style.transform = 'translateY(0)';
+        });
+      });
+
+      // Intersection Observer for scroll animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, observerOptions);
+
+      // Animate service cards on scroll
+      serviceCards.forEach((card, index) => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(30px)';
+        card.style.transition = `all 0.8s cubic-bezier(0.16, 1, 0.3, 1) ${index * 0.1}s`;
+        observer.observe(card);
+      });
+    });
+  </script>
+</div>
+</element><element id="81485752-ff44-49ae-a0dc-2cc0b35fc985" data-section-id="81485752-ff44-49ae-a0dc-2cc0b35fc985">
+
+<div id="root">
+  <section id="contact" class="py-20 bg-background">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <h2 class="font-Roboto text-4xl font-bold text-text mb-4">Contact</h2>
+        <p class="font-Roboto text-xl text-gray-600 max-w-3xl mx-auto">
+          Ready to transform your hotel with AI? Get in touch with our experts today.
+        </p>
+      </div>
+
+      <!-- Main Contact Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+        <!-- Contact Form -->
+        <div class="bg-white rounded-lg p-8 border border-gray-200">
+          <h3 class="font-Roboto text-2xl font-bold text-text mb-6">Send us a Message</h3>
+          <form id="contact-form" class="space-y-6">
+            <div>
+              <label for="name" class="font-Roboto block text-sm font-medium text-text mb-2">Full Name</label>
+              <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                required
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
+                placeholder="Enter your full name"
+              />
+            </div>
+            <div>
+              <label for="email" class="font-Roboto block text-sm font-medium text-text mb-2">Email Address</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                required
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
+                placeholder="Enter your email address"
+              />
+            </div>
+            <div>
+              <label for="phone" class="font-Roboto block text-sm font-medium text-text mb-2">Phone Number</label>
+              <input 
+                type="tel" 
+                id="phone" 
+                name="phone"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
+                placeholder="Enter your phone number"
+              />
+            </div>
+            <div>
+              <label for="message" class="font-Roboto block text-sm font-medium text-text mb-2">Message</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="5" 
+                required
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 resize-none"
+                placeholder="Tell us about your hotel and how we can help..."
+              ></textarea>
+            </div>
+            <button 
+              type="submit"
+              class="font-Roboto w-full bg-primary text-white font-semibold py-4 px-6 rounded-lg hover:bg-opacity-90 transform hover:scale-105 transition-all duration-300"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="space-y-8">
+          <!-- Office Image -->
+          <div class="relative overflow-hidden rounded-lg">
+            <img 
+              src="https://images.unsplash.com/photo-1532313944948-f7c5433f64e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8aG90ZWwlMjUyMHJlY2VwdGlvbiUyNTIwZGVzayUyNTIwbW9kZXJuJTI1MjB0dXJxdW9pc2UlMjUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NTAzMDYyNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              alt="Modern hotel reception desk representing professional hospitality services"
+              class="w-full h-64 object-cover"
+              loading="lazy"
+            />
+          </div>
+
+          <!-- Contact Details -->
+          <div class="bg-white rounded-lg p-8 border border-gray-200">
+            <h3 class="font-Roboto text-2xl font-bold text-text mb-6">Get in Touch</h3>
+            
+            <div class="space-y-6">
+              <!-- Address -->
+              <div class="flex items-start space-x-4">
+                <div class="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="font-Roboto font-semibold text-text mb-1">Office Address</h4>
+                  <p class="font-Roboto text-gray-600 text-sm leading-relaxed">
+                    701, Stellar Tower, Chembur East, Sion Opposite,<br>
+                    Diamond Garden, Basant Garden, Chembur,<br>
+                    Mumbai, Maharashtra 400071
+                  </p>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="flex items-start space-x-4">
+                <div class="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="font-Roboto font-semibold text-text mb-1">Phone</h4>
+                  <a href="tel:+918369848475" class="font-Roboto text-primary hover:text-accent transition-colors duration-300">
+                    +91 8369848475
+                  </a>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="flex items-start space-x-4">
+                <div class="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="font-Roboto font-semibold text-text mb-1">Email</h4>
+                  <a href="mailto:info@hotelconsultant.in" class="font-Roboto text-primary hover:text-accent transition-colors duration-300">
+                    info@hotelconsultant.in
+                  </a>
+                </div>
+              </div>
+
+              <!-- Website -->
+              <div class="flex items-start space-x-4">
+                <div class="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.559-.499-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.559.499.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.497-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="font-Roboto font-semibold text-text mb-1">Website</h4>
+                  <a href="https://hotelconsultant.in" class="font-Roboto text-primary hover:text-accent transition-colors duration-300">
+                    hotelconsultant.in
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- WhatsApp Button -->
+            <div class="mt-8 pt-6 border-t border-gray-200">
+              <a 
+                href="https://wa.me/918369848475" 
+                target="_blank"
+                class="font-Roboto inline-flex items-center w-full justify-center px-6 py-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-all duration-300"
+              >
+                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.106"/>
+                </svg>
+                Contact us on WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Images Section -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+        <div class="relative overflow-hidden rounded-lg">
+          <img 
+            src="https://images.unsplash.com/photo-1588532242026-01df5951f6f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8aG90ZWwlMjUyMHJlY2VwdGlvbiUyNTIwZGVzayUyNTIwbW9kZXJuJTI1MjB0dXJxdW9pc2UlMjUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NTAzMDYyNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+            alt="Modern hotel lobby showcasing professional hospitality environment"
+            class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+          />
+        </div>
+        <div class="relative overflow-hidden rounded-lg">
+          <img 
+            src="https://images.unsplash.com/photo-1589674462130-3228bf35dd5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8aG90ZWwlMjUyMHJlY2VwdGlvbiUyNTIwZGVzayUyNTIwbW9kZXJuJTI1MjB0dXJxdW9pc2UlMjUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NTAzMDYyNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+            alt="Modern white and blue building representing professional business environment"
+            class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+      <!-- Google Maps -->
+      <div class="bg-white rounded-lg p-8 border border-gray-200">
+        <h3 class="font-Roboto text-2xl font-bold text-text mb-6">Find Us</h3>
+        <div class="w-full h-96 rounded-lg overflow-hidden">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.5234567890123!2d72.8856!3d19.0176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDAxJzAzLjQiTiA3MsKwNTMnMDguMiJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Hotel Consultant AI Office Location"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Contact form handling
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactForm = document.getElementById('contact-form');
+      
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Get form data
+        const formData = new FormData(contactForm);
+        const name = formData.get('name');
+        const email = formData.get('email');
+        const phone = formData.get('phone');
+        const message = formData.get('message');
+        
+        // Simple validation
+        if (!name || !email || !message) {
+          alert('Please fill in all required fields.');
+          return;
+        }
+        
+        // Simulate form submission
+        const submitButton = contactForm.querySelector('button[type="submit"]');
+        const originalText = submitButton.textContent;
+        
+        submitButton.textContent = 'Sending...';
+        submitButton.disabled = true;
+        
+        setTimeout(() => {
+          alert('Thank you for your message! We will get back to you soon.');
+          contactForm.reset();
+          submitButton.textContent = originalText;
+          submitButton.disabled = false;
+        }, 2000);
+      });
+
+      // Form field animations
+      const formInputs = document.querySelectorAll('#contact-form input, #contact-form textarea');
+      formInputs.forEach(input => {
+        input.addEventListener('focus', function() {
+          this.parentElement.style.transform = 'translateY(-2px)';
+          this.parentElement.style.transition = 'transform 0.3s ease';
+        });
+        
+        input.addEventListener('blur', function() {
+          this.parentElement.style.transform = 'translateY(0)';
+        });
+      });
+
+      // Intersection Observer for animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, observerOptions);
+
+      // Animate contact sections
+      const animateElements = document.querySelectorAll('#contact .bg-white, #contact .grid');
+      animateElements.forEach((el, index) => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = `all 0.8s cubic-bezier(0.16, 1, 0.3, 1) ${index * 0.1}s`;
+        observer.observe(el);
+      });
+    });
+  </script>
+</div>
+</element><element id="e7e55a3b-671e-493d-bfaa-499493a8ef64" data-section-id="e7e55a3b-671e-493d-bfaa-499493a8ef64">
+
+<div id="root">
+  <footer id="footer" class="bg-gray-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Main Footer Content -->
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 mb-12">
+        <!-- Company Info -->
+        <div class="lg:col-span-2">
+          <div class="mb-6">
+            <h3 class="font-Roboto text-2xl font-bold text-primary mb-2">Hotel Consultant AI</h3>
+            <p class="font-Roboto text-gray-300 mb-4">
+              Empowering Hospitality with Intelligent Insights
+            </p>
+            <p class="font-Roboto text-gray-400 text-sm leading-relaxed">
+              Revolutionizing the hospitality sector through AI-driven insights. We help hotels enhance guest experiences, optimize operations, and boost profitability across India.
+            </p>
+          </div>
+          
+          <!-- Contact Info -->
+          <div class="space-y-3">
+            <div class="flex items-center space-x-3">
+              <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+              </svg>
+              <p class="font-Roboto text-gray-300 text-sm">
+                701, Stellar Tower, Chembur East, Mumbai, Maharashtra 400071
+              </p>
+            </div>
+            <div class="flex items-center space-x-3">
+              <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+              </svg>
+              <a href="tel:+918369848475" class="font-Roboto text-gray-300 hover:text-primary transition-colors duration-300 text-sm">
+                +91 8369848475
+              </a>
+            </div>
+            <div class="flex items-center space-x-3">
+              <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+              </svg>
+              <a href="mailto:info@hotelconsultant.in" class="font-Roboto text-gray-300 hover:text-primary transition-colors duration-300 text-sm">
+                info@hotelconsultant.in
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="font-Roboto text-lg font-semibold text-white mb-6">Quick Links</h4>
+          <ul class="space-y-3">
+              <li>
+                <a href="#hero" class="font-Roboto text-gray-300 hover:text-primary transition-colors duration-300 text-sm">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="font-Roboto text-gray-300 hover:text-primary transition-colors duration-300 text-sm">About Us</a>
+              </li>
+              <li>
+                <a href="#services" class="font-Roboto text-gray-300 hover:text-primary transition-colors duration-300 text-sm">AI Services</a>
+              </li>
+              <li>
+                <a href="#contact" class="font-Roboto text-gray-300 hover:text-primary transition-colors duration-300 text-sm">Contact</a>
+              </li>
+              <li>
+                <a href="#privacy" class="font-Roboto text-gray-300 hover:text-primary transition-colors duration-300 text-sm">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#terms" class="font-Roboto text-gray-300 hover:text-primary transition-colors duration-300 text-sm">Terms of Service</a>
+              </li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4 class="font-Roboto text-lg font-semibold text-white mb-6">Our Services</h4>
+          <ul class="space-y-3">
+            <li>
+              <span class="font-Roboto text-gray-300 text-sm">AI-Driven Guest Insights</span>
+            </li>
+            <li>
+              <span class="font-Roboto text-gray-300 text-sm">Operational Efficiency</span>
+            </li>
+            <li>
+              <span class="font-Roboto text-gray-300 text-sm">Market Analysis</span>
+            </li>
+            <li>
+              <span class="font-Roboto text-gray-300 text-sm">Training & Support</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Images -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <div class="relative overflow-hidden rounded-lg">
+          <img 
+            src="https://images.unsplash.com/photo-1532313944948-f7c5433f64e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8aG90ZWwlMjUyMGxvYmJ5JTI1MjBtb2Rlcm4lMjUyMHByb2Zlc3Npb25hbCUyNTIwbWluaW1hbCUyNTIwdHVycXVvaXNlfGVufDF8MHx8fDE3NTAzMDYzNzF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+            alt="Modern hotel lobby representing professional hospitality services"
+            class="w-full h-48 object-cover opacity-70 hover:opacity-90 transition-opacity duration-300"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+        </div>
+        <div class="relative overflow-hidden rounded-lg">
+          <img 
+            src="https://images.unsplash.com/photo-1588532242026-01df5951f6f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8aG90ZWwlMjUyMGxvYmJ5JTI1MjBtb2Rlcm4lMjUyMHByb2Zlc3Npb25hbCUyNTIwbWluaW1hbCUyNTIwdHVycXVvaXNlfGVufDF8MHx8fDE3NTAzMDYzNzF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+            alt="Professional hotel environment showcasing modern hospitality technology"
+            class="w-full h-48 object-cover opacity-70 hover:opacity-90 transition-opacity duration-300"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+        </div>
+      </div>
+
+      <!-- Social Links & CTA -->
+      <div class="flex flex-col md:flex-row justify-between items-center py-8 border-t border-gray-700">
+        <div class="mb-6 md:mb-0">
+          <a 
+            href="https://wa.me/918369848475" 
+            target="_blank"
+            class="font-Roboto inline-flex items-center px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all duration-300"
+          >
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.106"/>
+            </svg>
+            Get Free Consultation
+          </a>
+        </div>
+        
+        <div class="text-center md:text-right">
+          <p class="font-Roboto text-gray-400 text-sm mb-2">
+            Transform your hotel with AI today
+          </p>
+          <a href="https://hotelconsultant.in" class="font-Roboto text-primary hover:text-accent transition-colors duration-300 text-sm">
+            hotelconsultant.in
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom Footer -->
+      <div class="pt-8 border-t border-gray-700">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <p class="font-Roboto text-gray-400 text-sm mb-4 md:mb-0">
+            &copy; 2024 Hotel Consultant AI. All rights reserved.
+          </p>
+          <p class="font-Roboto text-gray-400 text-sm">
+            Owned by <a href="https://scalium.in" target="_blank" class="text-primary hover:text-accent transition-colors duration-300">Scalium.in</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button 
+      id="back-to-top"
+      class="fixed bottom-8 right-8 bg-primary text-white p-3 rounded-full shadow-lg hover:bg-opacity-90 transform hover:scale-110 transition-all duration-300 opacity-0 invisible"
+      aria-label="Back to top"
+    >
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+      </svg>
+    </button>
+  </footer>
+
+  <script>
+    // Back to top functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const backToTopButton = document.getElementById('back-to-top');
+      
+      // Show/hide back to top button
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+          backToTopButton.style.opacity = '1';
+          backToTopButton.style.visibility = 'visible';
+        } else {
+          backToTopButton.style.opacity = '0';
+          backToTopButton.style.visibility = 'hidden';
+        }
+      });
+      
+      // Smooth scroll to top
+      backToTopButton.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+
+      // Footer link smooth scrolling
+      document.querySelectorAll('#footer a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            const headerHeight = document.querySelector('header').offsetHeight;
+            const targetPosition = target.offsetTop - headerHeight;
+            
+            window.scrollTo({
+              top: targetPosition,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+
+      // Footer animation on scroll
+      const footer = document.getElementById('footer');
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, observerOptions);
+
+      footer.style.opacity = '0';
+      footer.style.transform = 'translateY(30px)';
+      footer.style.transition = 'all 0.8s cubic-bezier(0.16, 1, 0.3, 1)';
+      observer.observe(footer);
+    });
+  </script>
+</div>
+</element></div>
+        </mountpoint>
+      </main>
+
+      <!-- Core functionality scripts -->
+      <script>
+        // Initialize interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+          // Add interactive behaviors
+          const interactiveElements = document.querySelectorAll('.interactive-element');
+          interactiveElements.forEach(element => {
+            element.addEventListener('mouseenter', () => {
+              element.classList.add('hover');
+            });
+            element.addEventListener('mouseleave', () => {
+              element.classList.remove('hover');
+            });
+          });
+
+          // Initialize any dynamic content
+          const dynamicContent = document.querySelectorAll('[data-dynamic]');
+          dynamicContent.forEach(content => {
+            // Add fade-in animation
+            content.classList.add('fade-in');
+          });
+        });
+
+        // Handle navigation
+        function handleNavigation(event) {
+          const link = event.currentTarget;
+          if (link.hasAttribute('data-nav')) {
+            event.preventDefault();
+            const target = link.getAttribute('data-nav');
+            document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+
+        // Initialize navigation
+        document.querySelectorAll('[data-nav]').forEach(link => {
+          link.addEventListener('click', handleNavigation);
+        });
+      </script>
+
+      <!-- Body Scripts -->
+      <script id="body-scripts">
+        // This script tag will be replaced with actual scripts.body content
+        if (window.scripts && window.scripts.body) {
+          document.getElementById('body-scripts').outerHTML = window.scripts.body;
+        }
+      </script>
+   </body>
+</html>
